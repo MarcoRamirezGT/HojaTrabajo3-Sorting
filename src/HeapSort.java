@@ -1,8 +1,13 @@
 // Java program for implementation of Heap Sort 
 public class HeapSort 
 { 
+	/**
+	 * 
+	 * @param arr
+	 */
 	public void sort(int arr[]) 
-	{ 
+	{
+		
 		int n = arr.length; 
 
 		// Build heap (rearrange array) 
@@ -24,6 +29,12 @@ public class HeapSort
 
 	// To heapify a subtree rooted with node i which is 
 	// an index in arr[]. n is size of heap 
+	/**
+	 * 
+	 * @param arr
+	 * @param n
+	 * @param i
+	 */
 	void heapify(int arr[], int n, int i) 
 	{ 
 		int largest = i; // Initialize largest as root 
@@ -50,6 +61,10 @@ public class HeapSort
 		} 
 	} 
 	/* A utility function to print array of size n */
+	/**
+	 * 
+	 * @param arr
+	 */
 	static void printArray(int arr[]) 
 	{ 
 		int n = arr.length; 

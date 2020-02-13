@@ -1,5 +1,9 @@
 
 public class SelectionSort {
+	/**
+	 * 
+	 * @param arr
+	 */
 	void sort(int arr[]) 
     { 
         int n = arr.length; 

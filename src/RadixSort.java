@@ -5,6 +5,12 @@ import java.util.*;
 class RadixSort { 
 
 	// A utility function to get maximum value in arr[] 
+	/**
+	 * 
+	 * @param arr
+	 * @param n
+	 * @return
+	 */
 	static int getMax(int arr[], int n) 
 	{ 
 		int mx = arr[0]; 
@@ -16,6 +22,12 @@ class RadixSort {
 
 	// A function to do counting sort of arr[] according to 
 	// the digit represented by exp. 
+	/**
+	 * 
+	 * @param arr
+	 * @param n
+	 * @param exp
+	 */
 	static void countSort(int arr[], int n, int exp) 
 	{ 
 		int output[] = new int[n]; // output array 
@@ -47,6 +59,11 @@ class RadixSort {
 
 	// The main function to that sorts arr[] of size n using 
 	// Radix Sort 
+	/**
+	 * 
+	 * @param arr
+	 * @param n
+	 */
 	static void radixsort(int arr[], int n) 
 	{ 
 		// Find the maximum number to know number of digits 
